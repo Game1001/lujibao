@@ -1,0 +1,17 @@
+table{
+    cursor: default;
+    border: 1px solid #000;
+}
+table tr td{
+    padding: 5px 10px 5px 10px;
+}
+.ljb-titles{
+    width: 200px;
+}
+
+.ljb-fColorR{
+    color: red;
+}
+.ljb-fColorG{
+    color: gray;
+}

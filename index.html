@@ -11,12 +11,13 @@
 <body>
     <div class="ljb">
         <span class="ljb_welcomSpan select_none">欢迎访问我的网站&nbsp!</span>
-        <button class="ljb_btn ljb_btn_BGC01 select_none">文字模式</button>
-        <button class="ljb_btn ljb_btn_BGC02 select_none">标准模式</button>
-        <button class="ljb_btn ljb_btn_BGC03 select_none">特效模式</button>
+        <button onclick="openLinks(1)" class="ljb_btn ljb_btn_BGC01 select_none">文字模式</button>
+        <button onclick="openLinks(2)"  class="ljb_btn ljb_btn_BGC02 select_none">标准模式</button>
+        <button onclick="openLinks(3)"  class="ljb_btn ljb_btn_BGC03 select_none">特效模式</button>
         <span class="ljb_shows">再小也得有个限度</span>
-        <!-- <audio id="ljb-audio" src="http://music.163.com/song/media/outer/url?id=1369798757.mp3" autoplay></audio> -->
+        <a id="ljb_link" style="display: none;"></a>
+        <audio id="ljb-audio" src="http://music.163.com/song/media/outer/url?id=1369798757.mp3" autoplay></audio>
     </div>
-    <!-- <script src="./js/ljb_main.js"></script> -->
+    <script src="./js/ljb_main.js"></script>
 </body>
 </html>
