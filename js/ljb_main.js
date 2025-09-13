@@ -36,7 +36,9 @@ function openLinks(item){
     let aLink = document.getElementById("ljb_link");
     switch (item) {
         case 1:
-            aLink.href="../content/blog_text/index.html";
+            // aLink.href="../content/blog_text/index.html";
+            alert('creat... , 搭建中');
+            aLink.href="#搭建中";
             break;
         case 2:
             alert('creat... , 搭建中');
